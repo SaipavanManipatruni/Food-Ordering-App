@@ -6,7 +6,8 @@ import Body from "./components/Body.js";
 import About from "./components/About.js";
 import Error from "./components/Error.js";
 import Contact from "./components/Contact.js";
-import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
+// import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu.js";
 
 
@@ -21,7 +22,7 @@ const Applayout = ()=>{
         );
 }
 
-const AppRouter = createBrowserRouter ([
+const AppRouter = createHashRouter([
    { 
     path:"/",
     element:<Applayout/>,
