@@ -158,7 +158,7 @@ const Body = () => {
                     Top Rated Restaurants
                 </button>
 
-                {/* Reset Button */}
+              
                 <button
                     className="px-4 py-2 bg-gray-200 m-5 rounded-lg hover:bg-gray-300"
                     onClick={() => {
