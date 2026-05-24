@@ -7,7 +7,7 @@
     "namastereact",
     "clone"
   ],
-  "homepage": "https://github.com/SaipavanManipatruni/Swiggy-clone#readme",
+  "homepage": "https://saipavanmanipatruni.github.io/Swiggy-clone",
   "bugs": {
     "url": "https://github.com/SaipavanManipatruni/Swiggy-clone/issues"
   },
@@ -20,7 +20,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "test": "jest"
   },
   "devDependencies": {
